@@ -102,22 +102,27 @@ $(document).ready(function() {
           num1 = 10 * num1 + digit
           $('#first-number').html(num1.toString())}
           else if (key === 'plus') {
+            $('#first-number').html(num1.toString())
             op = '+'
             $('#operator').html('+')
             state = 2}
             else if (key === 'minus') {
+              $('#first-number').html(num1.toString())
               op = '-'
               $('#operator').html('&minus;')
               state = 2}
               else if (key === 'times') {
+                $('#first-number').html(num1.toString())
                 op = '*'
                 $('#operator').html('&times;')
                 state = 2}
                 else if (key === 'divide') {
+                  $('#first-number').html(num1.toString())
                   op = '/'
                   $('#operator').html('&divide;')
                   state = 2}
                   else if (key === 'power') {
+                    $('#first-number').html(num1.toString())
                     op = '^'
                     $('#operator').html('^')
                     state = 2}
